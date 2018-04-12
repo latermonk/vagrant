@@ -14,3 +14,13 @@ https://app.vagrantup.com/centos/boxes/7
 https://cloud.centos.org/centos/7/vagrant/x86_64/images/     
 
 
+
+##  注意
+
+Ubuntu vagrant Installed Version: 1.8.1  只能和 virtaulbox 4.0, 4.1, 4.2, 4.3, 5.0 这些版本兼容   
+
+
+
+
+
+
