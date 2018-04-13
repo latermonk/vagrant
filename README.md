@@ -24,3 +24,6 @@ Ubuntu vagrant Installed Version: 1.8.1  只能和 virtaulbox 4.0, 4.1, 4.2, 4.3
 
 
 
+virtualbox download:
+
+https://download.virtualbox.org/virtualbox   
