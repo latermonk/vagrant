@@ -21,9 +21,15 @@ Ubuntu vagrant Installed Version: 1.8.1  只能和 virtaulbox 4.0, 4.1, 4.2, 4.3
 
 
 
+# vagrant install k8s cluster
+
+https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster/blob/master/README-cn.md    
+
 
 
 
 virtualbox download:
 
 https://download.virtualbox.org/virtualbox   
+
+
