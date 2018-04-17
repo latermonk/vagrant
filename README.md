@@ -1,6 +1,12 @@
 # vagrant
 
 
+## vagrant基础教程
+
+https://www.cnblogs.com/davenkin/p/vagrant-virtualbox.html   
+
+
+
 ##  离线安装centos镜像：
 
 
