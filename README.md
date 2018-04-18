@@ -1,5 +1,11 @@
 # vagrant
 
+```
+vagrant global-status
+
+```
+
+
 
 ## vagrant基础教程
 
