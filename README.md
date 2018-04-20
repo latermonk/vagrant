@@ -3,6 +3,8 @@
 ```
 vagrant global-status
 
+vboxmanage list vms
+
 ```
 
 
