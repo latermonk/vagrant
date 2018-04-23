@@ -15,6 +15,11 @@ https://www.cnblogs.com/davenkin/p/vagrant-virtualbox.html  
 
 
 
+##  Vagrant 基础全面解析
+
+https://www.cnblogs.com/kelsen/archive/2017/01/04/6247005.html    
+
+
 ##  离线安装centos镜像：
 
 
