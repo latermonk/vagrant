@@ -24,6 +24,13 @@ vboxmanage list vms
 VBoxManage unregistervm xxx-id --delete
 ```
 
+## 另外一个 坑！！！   用vagrant global-status查看总是还有虚拟机入口
+
+执行
+```
+ vagrant global-status --prune
+```
+把虚拟机入口彻底清除
 
 
 ## vagrant基础教程
