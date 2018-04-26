@@ -18,6 +18,12 @@ vboxmanage list vms
 
 ```
 
+#### 查看虚拟机并删除之
+```
+vboxmanage list vms
+VBoxManage unregistervm xxx-id --delete
+```
+
 
 
 ## vagrant基础教程
