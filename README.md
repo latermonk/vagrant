@@ -1,5 +1,16 @@
 # vagrant
 
+
+##  Vagrant virtualbox 的一个可能的 BUG ！！！ 
+
+###  设置 pulic-network bridge 的正确模式
+
+```
+ config.vm.network "public_network", :bridge => "eno1", auto_config: false
+ 
+```
+
+
 ```
 vagrant global-status
 
