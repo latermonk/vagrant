@@ -1,5 +1,38 @@
 # vagrant
 
+# vagrant box 带版本号的添加方案
+
+## 把box文件和metadata.json文件放到一个目录，以bionic-server-cloudimg-amd64-vagrant.box为例：
+
+metadata.json
+```
+{
+    "name": "ubuntu/bionic64",
+    "versions": [{
+        "version": "20190322",
+        "providers": [{
+            "name": "virtualbox",
+            "url": "./bionic-server-cloudimg-amd64-vagrant.box"
+        }]
+    }]
+}
+
+```
+
+然后：
+
+```
+vagrant box add metadata.json
+```
+
+查看：
+
+```
+ vagrant box list
+
+```
+
+
 # box 镜像搜索
 
 https://app.vagrantup.com/boxes/search
