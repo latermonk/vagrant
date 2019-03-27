@@ -1,5 +1,11 @@
 # vagrant
 
+# box 镜像搜索
+
+https://app.vagrantup.com/boxes/search
+
+
+
 # Ubuntu 下载地址  
 
 https://cloud-images.ubuntu.com/bionic/
