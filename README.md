@@ -1,5 +1,9 @@
 # vagrant
 
+# Ubuntu 下载地址  
+
+https://cloud-images.ubuntu.com/bionic/
+
 
 ##  Vagrant virtualbox 的一个可能的 BUG ！！！ 
 
