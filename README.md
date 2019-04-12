@@ -19,6 +19,15 @@ end
 ```
 
 
+#  SSH端口写死
+
+```
+
+  config.vm.network "forwarded_port", guest: 22, host: 2222, id: "ssh", disabled: "true"
+  config.vm.network "forwarded_port", guest: 22, host: 3333
+```
+
+
 # vagrant box 带版本号的添加方案
 
 ## 把box文件和metadata.json文件放到一个目录，以bionic-server-cloudimg-amd64-vagrant.box为例：
