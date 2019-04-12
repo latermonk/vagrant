@@ -1,10 +1,23 @@
 # vagrant
 
+## ssh key
+
+### Linux
+
 ```
-config.ssh.insert_key = false # 1
-config.ssh.private_key_path = ['~/.vagrant.d/insecure_private_key', '~/.ssh/id_rsa'] # 2
+config.ssh.insert_key = false
+config.ssh.private_key_path = ['~/.vagrant.d/insecure_private_key', '~/.ssh/id_rsa']
   
 ```
+### Win
+
+
+```
+config.ssh.insert_key = false
+config.ssh.private_key_path = ['~/.vagrant.d/insecure_private_key', '~/.ssh/id_rsa']
+  
+```
+
 
 
 # Vagrant指定 SSH key
