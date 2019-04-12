@@ -1,5 +1,17 @@
 # vagrant
 
+
+# Vagrant指定 SSH key
+
+```
+Vagrant.configure("2") do |config|
+  config.ssh.private_key_path = "~/.ssh/id_rsa"
+  config.ssh.forward_agent = true
+end
+
+```
+
+
 # vagrant box 带版本号的添加方案
 
 ## 把box文件和metadata.json文件放到一个目录，以bionic-server-cloudimg-amd64-vagrant.box为例：
