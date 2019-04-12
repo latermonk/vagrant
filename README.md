@@ -3,12 +3,19 @@
 
 # Vagrant指定 SSH key
 
+## Linux
+
 ```
 Vagrant.configure("2") do |config|
   config.ssh.private_key_path = "~/.ssh/id_rsa"
   config.ssh.forward_agent = true
 end
 
+```
+## Win
+
+```
+  config.ssh.private_key_path = "C:\\Users\\grgbanking\\ssh\\vgrantKEYpass"
 ```
 
 
@@ -96,7 +103,7 @@ VBoxManage unregistervm xxx-id --delete
 
 ## vagrant基础教程
 
-https://www.cnblogs.com/davenkin/p/vagrant-virtualbox.html   
+https://www.cnblogs.com/davenkin/p/vagrant-virtualbox.html   
 
 
 
