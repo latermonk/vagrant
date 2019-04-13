@@ -1,5 +1,12 @@
 # vagrant
 
+
+##  销毁并清理虚拟机
+
+```
+vagrant destroy -f && rm -rf .vagrant
+```
+
 ## ssh key
 
 ### Linux
@@ -9,6 +16,15 @@ config.ssh.insert_key = false
 config.ssh.private_key_path = ['~/.vagrant.d/insecure_private_key', '~/.ssh/id_rsa']
   
 ```
+
+
+
+```
+config.ssh.insert_key = false
+  config.ssh.private_key_path = ["keys/private", "~/.vagrant.d/insecure_private_key"]
+  config.vm.provision "file", source: "keys/public", destination: "~/.ssh/authorized_keys"
+```
+
 ### Win
 
 
