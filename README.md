@@ -200,4 +200,8 @@ https://download.virtualbox.org/virtualbox
 https://www.youtube.com/watch?list=PL2vfKi8eN0j72pmf3IjXhTXMXhm2LYlgz&time_continue=2&v=d3wrp2BEvuE
 
 
+## Crash Course 
+https://sysadmincasts.com/episodes/42-crash-course-on-vagrant-revised   
+
+
 
