@@ -199,6 +199,9 @@ https://download.virtualbox.org/virtualbox
 ## vagrant from scratch
 https://ligerlearn.com/course/vagrant-from-scratch/
 
+https://www.youtube.com/watch?v=RSslFGH1Vjw&list=PLMWwct3_kb-358XZdnN66zb3HaU97DSQ0&index=7
+
+
 
 
 ![vagrant-from-scratch](images/vagrant-from-scratch.png)
