@@ -196,6 +196,9 @@ https://download.virtualbox.org/virtualbox
 
 #  vagrant video
 
+## vagrant from scratch
+https://ligerlearn.com/lesson/vagrant-from-scratch-course-introduction/
+
 ## Vagrant Configuration
 https://www.youtube.com/watch?list=PL2vfKi8eN0j72pmf3IjXhTXMXhm2LYlgz&time_continue=2&v=d3wrp2BEvuE
 
