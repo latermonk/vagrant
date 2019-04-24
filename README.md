@@ -1,13 +1,23 @@
 # vagrant
 
 
-
+## Win10
 ```
 config.ssh.insert_key = false
 config.ssh.private_key_path = ['C:\\Users\\grgbanking\\.vagrant.d\\insecure_private_key']
 config.vm.network "forwarded_port", guest: 22, host: 2222, id: "ssh", disabled: "true"
 config.vm.network "forwarded_port", guest: 22, host: 8888
 ```
+
+##  MacOS
+
+```
+config.ssh.insert_key = false
+config.ssh.private_key_path = ['~/.vagrant.d/insecure_private_key']
+config.vm.network "forwarded_port", guest: 22, host: 2222, id: "ssh", disabled: "true"
+config.vm.network "forwarded_port", guest: 22, host: 8888
+```
+
 
 
 
